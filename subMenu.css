@@ -1,0 +1,89 @@
+
+.whole-pg{
+    background-color: white;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    /* left: 0%; */
+    /* top: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    /* padding: 0; */
+    /* left: 5px; */
+    /* display: none; */
+    z-index: -99;
+}
+.searchIcon:hover .whole-pg{
+    display: block;
+    z-index: 99;
+}
+.container {
+    /* text-align: center; */
+    /* position: absolute; */
+    margin: 0%;
+    /* z-index: -99; */
+    /* display: none; */
+}
+.close-button {
+    text-align: right;
+    margin-bottom: 5rem;
+    margin-right: -4rem;
+}
+.close-button button {
+    font-size: 2rem;
+    background: none;
+    /* border: none; */
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* padding: 2px; */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.grid-item {
+    text-align: left;
+}
+.grid-item h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.grid-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.grid-item ul li {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    /* cursor: pointer; */
+}
+.grid-item ul li a{
+    cursor: pointer;
+}
+.about-grid ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+.start-planning-button {
+    border: 1px solid black;
+    border-radius: 9999px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    background: none;
+}
+.start-planning-button:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: background-color 0.5s;
+
+}
